@@ -3923,6 +3923,7 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-item {
   margin-bottom: -0.125rem;
+  
 }
 .nav-tabs .nav-link {
   border: 0.125rem solid transparent;
@@ -3983,6 +3984,8 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: #7ca048;
+ 
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4003,6 +4006,7 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  font-family: 'Inconsolata', monospace;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -10086,6 +10090,7 @@ h3 {
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  font-family: 'Inconsolata', monospace;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
@@ -10134,6 +10139,10 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-image: url(../images/plato1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10144,6 +10153,8 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  height: 300px;
+  width: 500px;
 }
 
 @media (min-width: 992px) {
@@ -10177,6 +10188,7 @@ h3 {
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
+  background-color: black;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
